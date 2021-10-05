@@ -20,7 +20,15 @@ namespace Kémia
 
     private static void NegyedikFeladat()
     {
-      
+      int db = 0;
+      foreach (var l in lista)
+      {
+        if (l.ev == "Ókor")
+        {
+          db++;
+        }
+      }
+      Console.WriteLine($"4.Feladat: Felfedezések száma az ókorban: {0}");
     }
 
     private static void HarmadikFeladat()
